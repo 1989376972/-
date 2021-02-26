@@ -15,7 +15,7 @@ public class work2 {
         System.out.println("请输入怪兽生命（1-999）和攻击力（1-999）：");
         monster.setBlood(in.nextInt());
         monster.setAttack(in.nextInt());
-        System.out.println("战斗开始！！");
+        System.out.println("战斗开始！！！");
         int count=1;
         while (monster.getBlood()>0&&player.getBlood()>0){
             System.out.println("第【"+count+"】回合");
